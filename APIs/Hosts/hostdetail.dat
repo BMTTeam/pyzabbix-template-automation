@@ -1,0 +1,97 @@
+-------------------------------------- Host Details return from API --------------------------------------------
+1) Basic :
+
+    "host": "Linux server",
+    "name": "Linux server",
+    "description": "",
+    "maintenances": [],
+    "hostid": "10167",
+    "proxy_hostid": "0",
+    "status": "0",
+    "disable_until": "0",
+    "error": "",
+    "available": "0",
+    "errors_from": "0",
+    "lastaccess": "0",
+    ---------------------------------------------
+    "available" : 0   -> default (unknown)
+    "available" : 1   -> Successfully connected
+    "available" : 2   -> There is error in connecting
+    ---------------------------------------------
+______________________________________________________________________________________________________________
+2) Important :
+
+    1) host
+    2) name
+    3) description
+    4) hostid
+    5) status
+    6) jmx_available
+    7) jmx_error
+    8) error
+    9) errors_from
+
+______________________________________________________________________________________________________________
+
+3) JMX :
+
+    1) "jmx_disable_until": "0",      2) "jmx_available": "0",   3) "jmx_errors_from": "0", 4) "jmx_error": "",
+
+    a) if jmx_available : 0 => (default) unknown
+    b) if jmx_available : 1 => available. It is working properly
+    c) if jmx_available : 2 => unavailable . It is trying to connect but error so get "jmx_error"
+
+______________________________________________________________________________________________________________
+
+4) SNMP :
+
+    1) "snmp_disable_until": "0"
+    2) "snmp_available": "0"
+    3) "snmp_errors_from": "0",
+    4) "snmp_error": "",
+______________________________________________________________________________________________________________
+
+5) IPMI :
+        1) "ipmi_authtype": "-1",
+        2) "ipmi_privilege": "2",
+        3) "ipmi_username": "",
+        4) "ipmi_password": "",
+        5) "ipmi_disable_until": "0",
+        6) "ipmi_available": "0",
+        7) "ipmi_errors_from": "0",
+        8) "ipmi_error": "",
+______________________________________________________________________________________________________________
+
+6) TLS :
+
+    1) "tls_connect": "1",
+    2) "tls_accept": "1",
+    3) "tls_issuer": "",
+    4) "tls_subject": "",
+    5) "tls_psk_identity": "",
+    6) "tls_psk": ""
+______________________________________________________________________________________________________________
+
+6) Maintaince :
+
+    1) "maintenanceid": "0",
+    2) "maintenance_status": "0",
+    3) "maintenance_type": "0",
+    4) "maintenance_from": "0",
+______________________________________________________________________________________________________________
+
+7) Macros and Tags , Groups and Templates :
+
+    a) Macros      =    "selectMacros": ["macro", "value"],
+
+    b) Tags        =    "selectTags" : ["tag","value"],
+
+    c) Groups      =    "selectGroups": ['groupid', 'name'],
+
+    d) Templates   =    "selectParentTemplates": ['templateid', 'name'],
+
+    e) Interface   =    "selectInterfaces": ['interfaceid', 'ip', 'port'],
+
+
+______________________________________________________________________________________________________________
+

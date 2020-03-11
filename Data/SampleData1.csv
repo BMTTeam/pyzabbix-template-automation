@@ -1,0 +1,13 @@
+Sr. No ,Hostname,IP ,group,template,tags,macros
+1,Centos_14,13.43.22.23,"LOWER,APP",LINUX,,-
+2,Prod1,13.30.22.12,"INSPROD,PROD",LINUX,insta,-
+3,Prod2,21.43.22.25,"INSPROD,PROD","LINUX,DISK",insta,ipath
+4,Prod3,65.43.22.94,"INSPROD,PROD",-,insta,ipath
+5,Ubuntu_CI,10.43.22.27,"INSPROD,PROD",APACHE,insta,ipath
+6,Centos_Paytm,14.13.42.68,"INSPROD,PROD",APACHE,"insta,paytm",ipath
+7,H3-LI-YT-001,10.43.22.29,"YT,PROD",LINUX,"fb,mail",
+8,H3-LI-YT-002,10.13.12.10,"YT,PROD",LINUX,,
+9,K3-SI-JK-003,10.43.22.31,"YT,PROD",LINUX,,
+10,O3-JK-RE-004,13.23.62.52,"FD,PTM",LINUX,youtube,
+11,DK-PR-YT-OP-01,23.43.22.193,"HG,KJ,TEST","TOMCAT,JMX",youtube,
+12,TES-CS.TEST.COM,10.43.22.34,"DEMO,K4",-,,
