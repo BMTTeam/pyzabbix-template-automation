@@ -249,7 +249,7 @@ class HostCreate:
 
 if __name__ == '__main__':
     hc = HostCreate(connob)
-    testip = '10.43.11.21'
+    testip = '192.168.11.21'
     testHostname = "Centos_Zabbix2"
     test_psk = "03ea041ef83a678a123e42a5944aaf390c863a6789ee0987dd21ee31770ff786"
     test_identity = "PSK 001"

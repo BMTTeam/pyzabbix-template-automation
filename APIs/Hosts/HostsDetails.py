@@ -333,7 +333,7 @@ class HostDetails:
             return response['result'][0]['name']
 if __name__ == '__main__':
     hd = HostDetails(connob)
-    testip = '10.43.11.97'
+    testip = '192.168.11.97'
     testhostid = 10327
     hd.getAllHostDetails()
 

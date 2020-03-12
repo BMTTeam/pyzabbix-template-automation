@@ -317,7 +317,7 @@ class HostUpdate:
 
 if __name__ == '__main__':
     hu = HostUpdate(connob)
-    testip = '10.43.11.197'
+    testip = '192.168.11.197'
     testhostid = [10343]
 
     groupList = [16, 18]
